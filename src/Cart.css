@@ -1,0 +1,22 @@
+.cart-table-container{
+    flex: 1;
+    margin-top: 60px;
+}
+
+.table-head{
+    margin: 5px;
+    padding: 10px;
+}
+
+.cart-table , th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.delete-button{
+    opacity: 0;
+}
+
+tr:hover .delete-button{
+    opacity: 1;
+}
