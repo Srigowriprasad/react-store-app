@@ -1,35 +1,36 @@
-body .login-container {
+body {
   height: 100%;
   margin: 0;
-  background-image: linear-gradient(
-    180deg,
-    rgb(124, 192, 112),
-    rgb(256, 256, 256)
-  );
-  background-repeat: no-repeat;
 }
 
 .login-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(180deg,
+  rgb(124, 192, 112),
+  rgb(256, 256, 256));
 }
 
 .video-login-container {
   display: flex;
-  margin: 80px;
-  height: 500px;
-  justify-content: center;
+  height: 550px;
+  width: 700px;
+  position: relative;
   align-items: center;
-  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
-}
-
-.video-container {
-  height: 100%;
-  overflow: hidden;
+  margin-top: 60px;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(7, 136, 7, 0.8);
 }
 
 .video-content {
+  flex: 1;
+  height: 100%;
   width: 100%;
+  object-fit: fill;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .login-fields-container {
@@ -38,9 +39,12 @@ body .login-container {
   justify-content: center;
   height: 100%;
   width: 100%;
+  flex: 1;
   align-items: center;
   background-color: white;
   max-width: 500px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .app-title {
@@ -86,4 +90,17 @@ body .login-container {
 
 .login-button:hover {
   opacity: 0.7;
+}
+
+.copyrights{
+  margin-top: 20px;
+  color: white;
+  font-size: 12px;
+}
+
+.article{
+  margin: 80px;
+  color: gray;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
 }
