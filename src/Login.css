@@ -1,0 +1,89 @@
+body .login-container {
+  height: 100%;
+  margin: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgb(124, 192, 112),
+    rgb(256, 256, 256)
+  );
+  background-repeat: no-repeat;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-login-container {
+  display: flex;
+  margin: 80px;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+}
+
+.video-container {
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-content {
+  width: 100%;
+}
+
+.login-fields-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  background-color: white;
+  max-width: 500px;
+}
+
+.app-title {
+  font-size: 18px;
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(7, 136, 7, 0.8);
+}
+
+.userName {
+  margin: 10px;
+  padding: 7px;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid rgb(124, 192, 112);
+}
+
+.userName:focus {
+  border: 2px solid rgba(7, 136, 7, 0.925);
+}
+
+.pass {
+  margin: 10px;
+  padding: 7px;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid rgb(124, 192, 112);
+}
+
+.pass:focus {
+  border: 2px solid rgba(7, 136, 7, 0.925);
+}
+
+.login-button {
+  margin: 10px;
+  padding: 7px;
+  background-color: rgba(7, 136, 7, 0.8);
+  border-style: none;
+  color: white;
+  border-radius: 20px;
+  transition: opacity 0.4s;
+}
+
+.login-button:hover {
+  opacity: 0.7;
+}

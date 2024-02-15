@@ -13,7 +13,7 @@ const Product = (props) => {
 
   useEffect(() => {
     // get product list on initial render
-    fetch("https://fakestoreapi.com/products")
+    fetch("http://localhost:3001/product/getAll/")
       .then((res) => res.json())
       .then((responseData) => {
         let quantity = {};

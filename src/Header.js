@@ -4,7 +4,7 @@ const Header = () => {
 
     return(
         <div className="header">
-         <span>Fake Store - garret project</span>
+         <span>Oasis</span>
         </div>
     )
 }
