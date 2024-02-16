@@ -23,7 +23,7 @@ const Product = (props) => {
         getQuantityObj(quantity);
         setProductList(responseData);
       });
-  }, []);
+  }, [getQuantityObj]);
 
   // increments the product quantity
   const incrementQuantity = (productId) => {
