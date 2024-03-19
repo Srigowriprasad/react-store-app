@@ -1,7 +1,5 @@
 import "./Login.css";
 import { useNavigate } from "react-router-dom";
-import GoogleLogo from './images/google-logo.png';
-import GithubLogo from './images/github-logo.png';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -50,12 +48,12 @@ const Login = () => {
               Forgot Password?
             </a>
             <div className="login-using-container">
-              <span>Or login using :</span>
+              <span>Login using :</span>
               <a href="/product">
-              <img src={GoogleLogo} alt=""></img>
+              <img src='/images/google-logo.png' alt=""></img>
               </a>
               <a href="/product">
-              <img src={GithubLogo} alt=""></img>
+              <img src='/images/github-logo.png' alt=""></img>
               </a>
             </div>
           </div>
