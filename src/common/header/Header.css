@@ -82,6 +82,7 @@
 .search-bar:focus {
     border: 1px solid rgb(7, 120, 7);
     box-shadow: 0 0 5px rgba(0, 100, 0, 0.8);
+    padding-left: 20px;
 }
 
 .search-button {
@@ -92,6 +93,10 @@
     border-bottom-right-radius: 20px;
     border: 1px solid rgb(124, 150, 112);
     box-shadow: 0 0 4px rgba(0, 100, 0, 0.5);
+}
+
+.search-button:hover{
+    background-color: rgb(124, 150, 112);
 }
 
 .search-icon {

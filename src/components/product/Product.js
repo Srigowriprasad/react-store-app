@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./Product.css";
-import Header from "./Header";
+import Header from "../../common/header/Header";
 
 //Shows product list
 const Product = (props) => {
